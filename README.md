@@ -1,3 +1,22 @@
+Windows Operation
+========
+
+1. Place contents of zip file in the same folder as your "resources" folder you wish to convert
+2. when inside the directory with all res2h files and "resources" folder, click the navigation bar and type "cmd"
+3. A Command Prompt window will appear from the current directory
+4. Type the following:
+<pre>
+generate.bat
+</pre>
+If all went well, you will now find a "converted" Folder and "Resources.h", "ResourceUtil.cpp"
+
+**Alternatively**
+At step 4, type the following:
+<pre>
+mkdir converted
+res2h ./resources ./converted -s -h Resources.h -u ResourceUtil.cpp
+</pre>
+
 res2h
 ========
 
