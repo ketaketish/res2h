@@ -21,9 +21,8 @@ Alternatively At step 4, type the following:
 mkdir converted
 res2h ./resources ./converted -s -h Resources.h -u ResourceUtil.cpp
 
-5. (For emulationstation .svg conversion)
-
-change the following:
+*(For emulationstation .svg conversion)*
+5. change the following in the new ./converted files
 
 const size_t 
 to
