@@ -17,15 +17,12 @@ mkdir converted
 res2h ./resources ./converted -s -h Resources.h -u ResourceUtil.cpp
 </pre>
 
-*(For emulationstation .svg conversion)*
-
-5. change the following in the new ./converted files
+**(For emulationstation .svg conversion)** \n5. change the following in the new ./converted files
 <pre>
 const size_t 
 to
 const uint16_t
 </pre>
-
 <pre>
 const unsigned char 
 to
